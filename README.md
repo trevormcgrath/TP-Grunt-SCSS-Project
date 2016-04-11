@@ -35,6 +35,7 @@ Also, I assume that you use a Mac. (Sorry Windows users)
 
 To download the most current version of NodeJS, [click here](https://nodejs.org/en/) and follow their instructions.
 Downloading NodeJs will install something called Node Package Manager, or "npm" for short. This package manager allows us to install plugins and other cool things in the same way Sublime Text's package manager does. Node package manager is updated a lot more frequently than Node is, so to make sure you have the latest version installed, open up your Terminal and enter this into the command line:
+
 `sudo npm install npm -g`
 
 Now that you have Node and Node Package Manager installed, let's install Grunt.
