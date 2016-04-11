@@ -6,11 +6,11 @@ In case you haven't noticed, writing CSS can become pretty repetitive. From havi
 
 This is where the CSS Preprocessor comes in. The CSS Preprosessor is a language extention of CSS that compiles into regular, web friendly CSS that browsers can understand.
 
-Essentially, CSS Preprocessors:
-    1. Saves you time
-    2. Write neater code that has reusable pieces and variables
-    3. Calculations and logic within your code
-    4. More organized and easy for others to step into your project
+* Essentially, CSS Preprocessors:
+  * Saves you time
+  * Write neater code that has reusable pieces and variables
+  * Calculations and logic within your code
+  * More organized and easy for others to step into your project
 
 __Ok I'm onboard for the CSS Preprocessor game, but why SCSS?__
 
@@ -18,6 +18,9 @@ Well, I simply went with what's popular. Look at it by the numbers.
 In a poll of ~1000 developers reading a design blog, the results came in as follows:
 
 ![picture alt](https://blog.keycdn.com/blog/wp-content/uploads/2015/09/sass-vs-less-poll.webp)
+
+
+
 
 
 
