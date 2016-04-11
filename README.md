@@ -19,8 +19,16 @@ In a poll of ~1000 developers reading a design blog, the results came in as foll
 
 ![picture alt](https://blog.keycdn.com/blog/wp-content/uploads/2015/09/sass-vs-less-poll.webp)
 
+Image courtesy of [this keycdn](https://www.keycdn.com/blog/sass-vs-less/) article.
 
+SASS is just simply more popular. While I'm sure LESS is great, I think we should go with SASS since it is quickly becoming the industry standard.
 
+###Ok, Enough Chit Chat, How Do I Get This Working On My Machine?###
+So for the purposes of this tutorial, I'll be teaching how to compile your SASS/SCSS using Grunt. There are a ton of different ways to do it, so if you don't like my Gruntfile setup, you'll have to learn your method elsewhere.
 
+Also, I assume that you use a Mac. (Sorry Windows users)
 
-
+* Below, we're going to go through how to install:
+  * NodeJS
+  * GruntJS
+  * SASS
