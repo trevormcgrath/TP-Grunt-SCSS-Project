@@ -66,16 +66,16 @@ We're almost there! So take a deep breath, refocus, and bear with me. First, you
 Your package.json file is meta-data about your project, like the name, version number, but more importantly, the plugins necessary to make your gruntfile.js work. There's a couple of different ways of creating and setting up your package.json file, but since we're lazy, just create a new file in your text editor, name it package.json, and copy and paste the following:
 
 `{  
-  "name": "Your-Project-Name-Here",  
-  "version": "0.0.1",  
-  "author": "Your Name",  
-  "license": "MIT",  
-  "devDependencies": {  
-  	"grunt": "^0.4.5",  
-  	"grunt-contrib-sass": "^1.0.0",  
-  	"grunt-contrib-uglify": "^1.0.0",  
-  	"grunt-contrib-watch": "^1.0.0",  
-  	"jit-grunt": "^0.10.0",  
-  	"matchdep": "~0.1.2"  
-  }  
+  "name": "Your-Project-Name-Here",  <br / >
+  "version": "0.0.1",  <br / >
+  "author": "Your Name",  <br / >
+  "license": "MIT",  <br / >
+  "devDependencies": {  <br / >
+  	"grunt": "^0.4.5",  <br / >
+  	"grunt-contrib-sass": "^1.0.0",  <br / >
+  	"grunt-contrib-uglify": "^1.0.0",  <br / >
+  	"grunt-contrib-watch": "^1.0.0",  <br / >
+  	"jit-grunt": "^0.10.0",  <br / >
+  	"matchdep": "~0.1.2"  <br / >
+  }  <br / >
 }`
