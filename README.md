@@ -67,16 +67,28 @@ Your package.json file is meta-data about your project, like the name, version n
 
 `{
   "name": "Your-Project-Name-Here",
+
   "version": "0.0.1",
+
   "author": "Your Name",
+
   "license": "MIT",
+
   "devDependencies": {
+
     "grunt": "^0.4.5",
+
     "grunt-contrib-sass": "^1.0.0",
+
     "grunt-contrib-uglify": "^1.0.0",
+
     "grunt-contrib-watch": "^1.0.0",
+
     "jit-grunt": "^0.10.0",
+
     "matchdep": "~0.1.2"
+
   }
+  
 }
 `
