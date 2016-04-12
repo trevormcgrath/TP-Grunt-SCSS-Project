@@ -1,0 +1,30 @@
+/*========================================================================== 
+
+			THE IMPORT PAGE
+			 – Everything SASS/SCSS imported here and compiled into CSS.
+
+========================================================================== */
+
+/* BOURBON - A simple and lightweight mixin library for Sass.
+	Documentation: http://bourbon.io/docs/
+========================================================================== */
+
+@import "plugins/normalize/normalize.scss";
+@import "plugins/bourbon/bourbon";
+@import "plugins/neat/neat";
+
+
+/* BASE - Base Variable files along with starting point Mixins and Placeholders 
+to be used throughout the site.
+========================================================================== */
+
+@import 'base/_variables.scss';
+/*@import 'base/_mixins.scss';
+@import 'base/_placeholders.scss';*/
+
+/* PARTS - Sections of the landing page.
+========================================================================== */ 
+
+@import 'parts/_header.scss';
+/*@import 'parts/_nav-right.scss';
+@import 'parts/_header-styles.scss';*/

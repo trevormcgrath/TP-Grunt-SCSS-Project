@@ -63,4 +63,15 @@ To install SASS, you need to have Ruby installed on your machine. Congratulation
 
 We're almost there! So take a deep breath, refocus, and bear with me. First, you need to create and figure 2 things: your package.json file, and your gruntfile.js file.
 
-Your package.json file is meta-data about your project, like the name, version number, but more importantly, the plugins necessary to make your gruntfile.js work. There's a couple of different ways of creating and setting up your package.json file, but since we're lazy, just create a new file in your text editor, name it package.json, and copy and paste the code from the package.json I made for this project.
+Your package.json file is meta-data about your project, like the name, version number, but more importantly, the plugins necessary to make your gruntfile.js work. There's a couple of different ways of creating and setting up your package.json file, but since we're lazy, just create a new file in your text editor, name it package.json, and [copy and paste the code from the package.json I made for this project](https://github.com/trevormcgrath/TP-Grunt-SCSS-Project/blob/master/package.json). I'll explain how to get those plugins I mentioned brought in later, first, let's get your gruntfile.js set up.
+
+Your gruntfile.js is the real heavy lifter here. This is the file that will explicitly state what you want done. For example, compile your .scss files into .css files. In the same way you created a new file for your package.json, do the same but name your file gruntfile.js, and [my code can be found by clicking here](https://github.com/trevormcgrath/TP-Grunt-SCSS-Project/blob/master/gruntfile.js).
+
+####Ok, I've got everything installed, I've got a Gruntfile and package.json... Now what?####
+There are a lot of ways to set up your gruntfile and configure it, however for the purposes of this tutorial I won't be going into that.
+
+Set up your file structure similiar to the one I have made for this project. 
+
+
+
+
