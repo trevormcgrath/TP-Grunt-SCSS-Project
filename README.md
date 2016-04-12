@@ -19,9 +19,9 @@ In a poll of ~1000 developers reading a design blog, the results came in as foll
 
 ![picture alt](https://blog.keycdn.com/blog/wp-content/uploads/2015/09/sass-vs-less-poll.webp)
 
-Image courtesy of [this keycdn](https://www.keycdn.com/blog/sass-vs-less/) article.
+Image and resources used above courtesy of [this keycdn](https://www.keycdn.com/blog/sass-vs-less/) article.
 
-SASS is just simply more popular. While I'm sure LESS is great, I think we should go with SASS since it is quickly becoming the industry standard.
+SASS is just simply more popular. While I'm sure LESS is great, I think we should go with SASS since it is quickly becoming the 'industry standard'.
 
 ###Ok, Enough Chit Chat, How Do I Get This Working On My Machine?###
 So for the purposes of this tutorial, I'll be teaching how to compile your SASS/SCSS using Grunt. There are a ton of different ways to do it, so if you don't like my Gruntfile setup, you'll have to learn your method elsewhere.
@@ -31,7 +31,7 @@ So for the purposes of this tutorial, I'll be teaching how to compile your SASS/
   * GruntJS
   * SASS
 
-__Before installing any of these, go ahead and check to see if you have these installed already by typing the following into your command line, if it returns a version number, you already have that!__
+__Before installing any of these, go ahead and check to see if you have these installed already by typing the following into your command line, if it returns a version number, you already have that installed!__
 
 `node -v`
 
@@ -59,5 +59,24 @@ To install SASS, you need to have Ruby installed on your machine. Congratulation
 
 `sudo gem install sass`
 
+###You now have everything installed, now how to compile .scss files into .css files###
 
+We're almost there! So take a deep breath, refocus, and bear with me. First, you need to create and figure 2 things: your package.json file, and your gruntfile.js file.
 
+Your package.json file is meta-data about your project, like the name, version number, but more importantly, the plugins necessary to make your gruntfile.js work. There's a couple of different ways of creating and setting up your package.json file, but since we're lazy, just create a new file in your text editor, name it package.json, and copy and paste the following:
+
+`{
+  "name": "Your-Project-Name-Here",
+  "version": "0.0.1",
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "matchdep": "~0.1.2"
+  }
+}
+`
