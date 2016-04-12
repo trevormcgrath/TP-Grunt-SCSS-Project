@@ -70,8 +70,23 @@ Your gruntfile.js is the real heavy lifter here. This is the file that will expl
 ####Ok, I've got everything installed, I've got a Gruntfile and package.json... Now what?####
 There are a lot of ways to set up your gruntfile and configure it, however for the purposes of this tutorial I won't be going into that.
 
-Set up your file structure similiar to the one I have made for this project. 
+Set up your file structure similiar to the one I have made for this project. Notice how I have the gruntfile.js and the package.json in the root? Well from here you need to get into your command line. Change directories (cd desktop, cd YOUR-PROJECT-DIRECTORY-NAME-HERE) until you are in the directory containing the package.json and gruntfile.js. Type in the following code to your command line and wait a few seconds:
 
+`npm install`
 
+What you just did is download all the depenedencies and plugins listed in "devDependencies" on line 6 of your package.json file. You might have noticed already that in the same directory as your gruntfile and package.json is a new directory called "node_modules". These are the plugins you just downloaded.
 
+In line 24 of your gruntfile.js, you'll see a task called "sass:{" and within the sass brackets,  "dev: {" and "dist:{". These are just some options to choose from between development and distributed. What's really important, is you'll see within these options a "files:{" option. This is where you declare where you want your .scss files compiled into. In other words, you tell your gruntfile that when a .scss file is compiled, where it will save that css. 
 
+As you can see, I've made my path option 'lib/css/main.min.css': 'lib/scss/main.scss'. This will take any .scss code found in lib/scss/main.scss, and compile that into css, which will be found at lib/css/main.min.css
+
+####My files are all set up and the paths to those files match those in my gruntfile, how do I compile?####
+In your command line, you should change directories (cd desktop, cd YOUR-PROJECT-DIRECTORY-NAME-HERE) until you're at the same directory root as your gruntfile.js, package.json, and node_modules. Type the following into your command line:
+
+`grunt sass:dev`
+
+This will turn any .scss code you've written in main.scss into .css that can be found in main.min.css
+
+And congratulations! You've just successfully completed this tutorial.
+
+Obviously, there was a lot going on throughout this tutorial, so if you have any questions shoot me a message and I'll answer any questions you have. 
